@@ -1,10 +1,22 @@
-<template></template>
+<template>
+  <section>
+    <h1>Compre ou Venda 👌</h1>
+    <ProductsList />
+    <ProductsSearch />
+  </section>
+</template>
 
 <script>
+import ProductsSearch from "@/components/ProductsSearch.vue";
+
+import ProductsList from "@/components/ProductsList.vue";
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: "home"
+  name: "home",
+  components: {
+    ProductsSearch,
+    ProductsList
+  }
 };
 </script>
