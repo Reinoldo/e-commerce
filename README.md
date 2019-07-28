@@ -25,6 +25,8 @@ npm run test
 npm run lint
 ```
 ### Json-server
+```
 json-server --watch ranek.json
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
