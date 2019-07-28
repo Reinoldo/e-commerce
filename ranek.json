@@ -1,0 +1,49 @@
+{
+	"user": [
+		{
+		"id": "reinoldo@outlook.com",
+		"age": "27",
+		"city": "Cork"
+		}
+	],
+
+	"product": [
+		{
+			"id": "notebook",
+			"name": "Notebook Dell",
+			"user_id": "reinoldo@outlook.com",
+			"price": "5000",
+			"sold": "false",
+			"photos": null
+
+		},
+			{
+			"id": "notebook2",
+			"name": "Notebook Dell",
+			"user_id": "reinoldo@outlook.com",
+			"price": "5000",
+			"sold": "false",
+			"photos": null
+
+		},
+			{
+			"id": "notebook3",
+			"name": "Notebook Dell",
+			"usuario_id": "reinoldo@outlook.com",
+			"price": "5000",
+			"sold": "false",
+			"photos": null
+
+		},
+			{
+			"id": "notebook4",
+			"name": "Notebook Dell",
+			"user_id": "reinoldo@outlook.com",
+			"price": "5000",
+			"sold": "false",
+			"photos": null
+
+		}
+	]
+
+}
