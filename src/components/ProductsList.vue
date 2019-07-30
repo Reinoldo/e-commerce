@@ -1,7 +1,7 @@
 <template>
   <section class="products-container">
     <div class="products" v-if="products && products.length">
-      <div class="product" v-for="product in products" :key="product.id">
+      <div class="product" v-for="(product, index) in products" :key="index">
         <router-link to="/">
           <img v-if="product.photos" :src="product.photos[0].src" :alt="product.photos[0].titulo" />
           <p class="price">{{product.price}}</p>
@@ -45,7 +45,7 @@ export default {
       api
         .get(`/product${this.url}`)
         .then(result => {
-          this.totalProducts = result.headers["x-total-count"];
+          this.totalProducts = Number(result.headers["x-total-count"]);
           this.products = result.data;
         })
         .catch(err => {

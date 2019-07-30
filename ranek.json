@@ -106,6 +106,276 @@
       "price": "5000",
       "sold": "false",
       "photos": null
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "1000",
+      "sold": "true",
+      "photos": null
+    },
+    {
+      "id": "notebook2",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "2000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook3",
+      "name": "Notebook",
+      "description": "A gamer machine, for those who play !",
+      "usuario_id": "teste@outlook.com",
+      "price": "3000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook4",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "4000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook5",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook6",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "6000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook7",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "7000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook8",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook9",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook10",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook11",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "1000",
+      "sold": "true",
+      "photos": null
+    },
+    {
+      "id": "notebook2",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "2000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook3",
+      "name": "Notebook",
+      "description": "A gamer machine, for those who play !",
+      "usuario_id": "teste@outlook.com",
+      "price": "3000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook4",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "4000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook5",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook6",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "6000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook7",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "7000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook8",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook9",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook10",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook11",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "1000",
+      "sold": "true",
+      "photos": null
+    },
+    {
+      "id": "notebook2",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "2000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook3",
+      "name": "Notebook",
+      "description": "A gamer machine, for those who play !",
+      "usuario_id": "teste@outlook.com",
+      "price": "3000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook4",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "4000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook5",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook6",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "6000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook7",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "7000",
+      "sold": "false",
+      "photos": null
+    },
+    {
+      "id": "notebook8",
+      "name": "Notebook Dell",
+      "description": "A gamer machine, for those who play !",
+      "user_id": "teste@outlook.com",
+      "price": "5000",
+      "sold": "false",
+      "photos": null
     }
   ]
 }
