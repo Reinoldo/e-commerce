@@ -13,7 +13,7 @@
       "name": "Notebook Dell",
       "description": "A gamer machine, for those who play !",
       "user_id": "teste@outlook.com",
-      "price": "5000",
+      "price": "1000",
       "sold": "true",
       "photos": null
     },
@@ -22,7 +22,7 @@
       "name": "Notebook Dell",
       "description": "A gamer machine, for those who play !",
       "user_id": "teste@outlook.com",
-      "price": "5000",
+      "price": "2000",
       "sold": "false",
       "photos": null
     },
@@ -31,7 +31,7 @@
       "name": "Notebook",
       "description": "A gamer machine, for those who play !",
       "usuario_id": "teste@outlook.com",
-      "price": "5000",
+      "price": "3000",
       "sold": "false",
       "photos": null
     },
@@ -40,7 +40,7 @@
       "name": "Notebook Dell",
       "description": "A gamer machine, for those who play !",
       "user_id": "teste@outlook.com",
-      "price": "5000",
+      "price": "4000",
       "sold": "false",
       "photos": null
     },
@@ -58,7 +58,7 @@
       "name": "Notebook Dell",
       "description": "A gamer machine, for those who play !",
       "user_id": "teste@outlook.com",
-      "price": "5000",
+      "price": "6000",
       "sold": "false",
       "photos": null
     },
@@ -67,7 +67,7 @@
       "name": "Notebook Dell",
       "description": "A gamer machine, for those who play !",
       "user_id": "teste@outlook.com",
-      "price": "5000",
+      "price": "7000",
       "sold": "false",
       "photos": null
     },
@@ -100,15 +100,6 @@
     },
     {
       "id": "notebook11",
-      "name": "Notebook Dell",
-      "description": "A gamer machine, for those who play !",
-      "user_id": "teste@outlook.com",
-      "price": "5000",
-      "sold": "false",
-      "photos": null
-    },
-    {
-      "id": "notebook12",
       "name": "Notebook Dell",
       "description": "A gamer machine, for those who play !",
       "user_id": "teste@outlook.com",

@@ -13,23 +13,31 @@
     <div class="no-results" v-else-if="products && products.length === 0">
       <p>No match, try another name.</p>
     </div>
+    <ProductsPagination :totalProducts="totalProducts" :productsByPage="productsByPage" />
   </section>
 </template>
 
 <script>
+import ProductsPagination from "@/components/ProductsPagination.vue";
 import { api } from "@/services.js";
 import { serialize } from "@/helpers.js";
+import { log } from "util";
 export default {
+  name: "ProductsList",
+  components: {
+    ProductsPagination
+  },
   data() {
     return {
       products: null,
-      pagination: 9
+      productsByPage: 3,
+      totalProducts: 0
     };
   },
   computed: {
     url() {
       const query = serialize(this.$route.query);
-      return `?_limit=${this.pagination}${query}`;
+      return `?_limit=${this.productsByPage}${query}`;
     }
   },
   methods: {
@@ -37,6 +45,7 @@ export default {
       api
         .get(`/product${this.url}`)
         .then(result => {
+          this.totalProducts = result.headers["x-total-count"];
           this.products = result.data;
         })
         .catch(err => {

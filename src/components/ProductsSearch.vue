@@ -2,7 +2,6 @@
   <form>
     <input id="search" type="text" name="search" v-model="search" placeholder="Search..." />
     <input type="submit" id="magnifier" value="Search" @click.prevent="searchProducts" />
-    {{search}}
   </form>
 </template>
 
