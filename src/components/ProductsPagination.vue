@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ul v-if="pagination > 1">
+    <ul v-if="pagination.length > 1">
       <li v-for="page in pagination" :key="page">
         <router-link :to="{query: query(page)}">{{page}}</router-link>
       </li>
@@ -43,6 +43,7 @@ export default {
       arrayPages.splice(0, current - offset);
       arrayPages.splice(range, total);
 
+      console.log(arrayPages);
       return arrayPages;
     },
     totalPages() {

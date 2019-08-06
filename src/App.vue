@@ -2,7 +2,9 @@
   <div id="app">
     <TheHeader />
     <main id="main">
-      <router-view />
+      <transition mode="out-in">
+        <router-view />
+      </transition>
     </main>
     <TheFooter />
   </div>
@@ -35,6 +37,9 @@ p {
   margin: 0px;
 }
 
+label {
+  margin-bottom: 5px;
+}
 ul {
   list-style: none;
 }

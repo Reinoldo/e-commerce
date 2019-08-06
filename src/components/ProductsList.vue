@@ -2,9 +2,9 @@
   <section class="products-container">
     <div class="products" v-if="products && products.length">
       <div class="product" v-for="(product, index) in products" :key="index">
-        <router-link to="/">
+        <router-link :to="{name: 'product', params:{id: product.id}}">
           <img v-if="product.photos" :src="product.photos[0].src" :alt="product.photos[0].titulo" />
-          <p class="price">{{product.price}}</p>
+          <p class="price">{{product.price | priceNumber}}</p>
           <h2 class="title">{{product.name}}</h2>
           <p class="description">{{product.description}}</p>
         </router-link>
@@ -21,7 +21,7 @@
 import ProductsPagination from "@/components/ProductsPagination.vue";
 import { api } from "@/services.js";
 import { serialize } from "@/helpers.js";
-import { log } from "util";
+
 export default {
   name: "ProductsList",
   components: {
